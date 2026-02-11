@@ -1,0 +1,71 @@
+script: "/gameover/gameover.gui_script"
+fonts {
+  name: "schluber"
+  font: "/main/schluber.font"
+}
+textures {
+  name: "main"
+  texture: "/main/main.atlas"
+}
+nodes {
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_BOX
+  id: "container"
+  inherit_alpha: true
+  alpha: 0.0
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    x: 320.0
+    y: 655.0
+  }
+  scale {
+    x: 2.5
+    y: 2.5
+    z: 2.5
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  font: "schluber"
+  id: "score"
+  parent: "container"
+}
+nodes {
+  position {
+    x: 320.0
+    y: 540.0
+  }
+  scale {
+    x: 0.8
+    y: 0.8
+    z: 0.8
+  }
+  size {
+    x: 199.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  font: "schluber"
+  id: "best-score"
+  parent: "container"
+}
+nodes {
+  position {
+    x: 320.0
+    y: 300.0
+  }
+  type: TYPE_BOX
+  texture: "main/replay_button"
+  id: "replay_button"
+  parent: "container"
+  size_mode: SIZE_MODE_AUTO
+}
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_PARENT
