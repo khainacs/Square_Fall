@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 239878fa097728947a0314ef4260dab9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - redSquarePrefab: {fileID: 271605405139357293, guid: 913871b571dbf534292185ebc16108ab, type: 3}
+  - blackSquarePrefab: {fileID: 7709222459270865614, guid: 11af3b5ec74f49946900ccf17d0f29bc, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
